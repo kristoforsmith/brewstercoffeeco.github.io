@@ -1,0 +1,2684 @@
+body {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+/* Home Page */
+
+.homepage {
+    background-image: url("joanna-boj-17158.jpg");
+    background-size: cover;
+    height: 700px;
+    margin-top: -20px;
+}
+
+.homepagefilter {
+    height: 700px;
+    background-color: rgba(215, 206, 199, 0.5);
+    margin-top: -20px;
+}
+
+.homepage .homepagefilter .homepagebanner {
+	color: white;
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 25rem;
+    padding-top: 50px;
+}
+
+
+.homepage .homepagefilter .homepagesubtitle {
+    text-transform: lowercase;
+	color: white;
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 11rem;
+    letter-spacing: 17px;
+    line-height: 0px;
+}
+
+.homepage .homepagefilter .navbar {
+    background-color: rgba(86, 86, 86, 0.8);
+    background-size: cover;
+    height: 80px;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -10px;
+    
+}
+
+
+.homepage .homepagefilter .navbar ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.homepage .homepagefilter .navbar ul li {
+    list-style: none;
+    font-family: "Quicksand";
+    color: rgb(215, 206, 199);
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+/* About Page */
+
+.about {
+    margin-top: -20px;
+    padding-top: 0px;
+}
+
+.about .aboutheader {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("michal-grosicki-198598.jpg");
+    height: 700px;
+}
+
+.about .aboutheader .aboutheaderfilter {
+    background-color: rgba(192, 159, 128, 0.5);
+    height: 700px;
+    
+}
+
+.about .aboutheader h1 {
+	font-family: "Josefin Sans";
+    font-size: 15rem;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.about .aboutheader p {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 0px 90px 0px 90px
+}
+
+
+.about .navbar {
+    background-color: rgba(86, 86, 86, 0.8);
+    background-size: cover;
+    height: 80px;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -10px;
+    
+}
+
+.about .navbar ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .navbar ul li {
+    list-style: none;
+    font-family: "Quicksand";
+    color: rgb(215, 206, 199);
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+/* Menu Page */
+
+.menupage {
+    margin-top: -20px;
+    padding-top: 0px;
+    background-size: cover;
+    background-color: rgb(118, 50, 63);
+    min-height: 700px;
+}
+
+
+
+.menupage .menuheader h1 {
+	font-family: "Josefin Sans";
+    font-size: 15rem;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+
+.menupage .menu .drinksmenu {
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+
+.menupage .menu .drinksmenu h1 {
+	text-align: left;
+    font-family: "Josefin Sans";
+    font-size: 9rem;
+    color: white;;
+    padding-top: 40px;
+    border-bottom: 2px solid rgb(215, 206, 199);
+    /* width: 400px; */
+
+}
+
+.menupage .menu .drinksmenu h3 {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.menupage .menu .drinksmenu p {
+    font-family: "Josefin Sans";
+    color: rgb(192, 159, 128);
+    font-size: 2rem;
+    line-height: 12px;
+}
+
+.menupage .menu .foodmenu {
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+
+.menupage .menu .foodmenu h1 {
+	text-align: right;
+    font-family: "Josefin Sans";
+    font-size: 9rem;
+    color: white;;
+    padding-top: 40px;
+    border-bottom: 2px solid rgb(215, 206, 199);
+    /* width: 400px; */
+}
+
+.menupage .menu .foodmenu h3 {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+}
+
+.menupage .menu .foodmenu p {
+    font-family: "Josefin Sans";
+    color: rgb(192, 159, 128);
+    font-size: 2rem;
+    line-height: 12px;
+    text-align: right;
+}
+
+
+.menupage .navbar {
+    background-color: rgba(86, 86, 86, 0.8);
+    background-size: cover;
+    height: 80px;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -10px;
+    
+}
+
+.menupage .navbar ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menupage .navbar ul li {
+    list-style: none;
+    font-family: "Quicksand";
+    color: rgb(215, 206, 199);
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+/* Contact Page */
+
+.contactpage {
+    margin-top: -20px;
+    padding-top: 0px;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.contactheader {
+
+}
+
+
+.contactpage .contactheader h1 {
+	font-family: "Josefin Sans";
+    font-size: 15rem;
+    text-align: center;
+    color: rgb(215, 206, 199);
+    padding-top: 40px;
+    
+}
+
+.contactpage .contactinfo .location {
+    text-align: center;
+}
+
+.contactpage .contactinfo .location h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 4rem;
+    color: rgb(118, 50, 63);
+}
+
+.contactpage .contactinfo .location p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(86, 86, 86);
+}
+
+.contactpage .contactinfo .location img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    
+}
+
+
+.contactpage .navbar {
+    background-color: rgba(86, 86, 86, 0.8);
+    background-size: cover;
+    height: 80px;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -10px;
+    
+}
+
+.contactpage .navbar ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactpage .navbar ul li {
+    list-style: none;
+    font-family: "Quicksand";
+    color: rgb(215, 206, 199);
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+/* Responsive Code */
+
+/* Mobile Phone */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+/* Portrait */
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 12rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 11rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1500px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1500px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 12rem;
+
+    }
+
+    .about .aboutheader p {
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 12rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 12rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+
+    }
+
+    .contactpage .contactinfo .location p {
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 60px;
+        width: 60px;
+
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2rem;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 12rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 11rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1500px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1500px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 12rem;
+
+    }
+
+    .about .aboutheader p {
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 12rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 12rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+
+    }
+
+    .contactpage .contactinfo .location p {
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 60px;
+        width: 60px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2rem;
+    }
+
+
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-width: 481px) and (max-width: 568px) and (orientation: portrait) {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 15.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 12rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1250px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1250px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+    .about .aboutheader p {
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 12rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 12rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 950px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+
+}      
+    
+
+
+/* Landscape */
+@media only screen and (min-width: 481px) and (max-width: 568px) and (orientation: portrait) {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 15.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 12rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1250px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1250px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+    .about .aboutheader p {
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 12rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 12rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 950px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 15.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+}  
+
+
+/* ----------- iPhone 6 ----------- */
+
+
+/* Portrait */
+@media only screen and (min-width: 569px) and (max-width: 673px) and (orientation: portrait)  {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 18.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 15rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 18.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 19rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 19rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+}  
+
+
+
+
+/* Landscape */
+@media only screen and (min-width: 569px) and (max-width: 673px) and (orientation: landscape) {
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 18.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 15rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 18.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 19rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 19rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+    }
+
+}  
+
+
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen and (min-width: 674px) and (max-width: 736px) and (orientation: portrait) {  
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 20.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 16rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+} 
+
+
+
+/* Landscape */
+@media only screen and (min-width: 674px) and (max-width: 736px) and (orientation: landscape)   {  
+
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 20.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 16rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1700px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: -20px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 2.5rem;
+        margin-top: -5px;
+    }
+
+} 
+
+/* Android Phones */
+
+@media screen and (min-width: 320px) and (device-height: 640px) {
+
+    
+
+}
+    
+
+
+/* iPad */
+
+@media only screen and (min-width: 737px) and (max-width: 1024px) {  
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 20.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 16rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1350px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1350px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+} 
+    
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1025px) and (max-width: 1090px) {  
+    body {
+        
+    }
+
+    /* Home Page */
+
+    .homepage {
+        
+    }
+
+    .homepagefilter {
+
+    }
+
+    .homepage .homepagefilter .homepagebanner {
+        font-size: 20.5rem;
+        margin-bottom: 30px;
+
+    }
+
+
+    .homepage .homepagefilter .homepagesubtitle {
+        font-size: 16rem;
+        letter-spacing: normal;
+        text-transform: none;
+
+    }
+
+    .homepage .homepagefilter .navbar {
+
+    }
+
+
+    .homepage .homepagefilter .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+    }
+
+    .homepage .homepagefilter .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+    /* About Page */
+
+    .about {
+
+    }
+
+    .about .aboutheader {
+        height: 1350px;
+
+    }
+
+    .about .aboutheader .aboutheaderfilter {
+        height: 1350px;
+
+    }
+
+    .about .aboutheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .about .aboutheader p {
+        font-size: 4rem;
+
+    }
+
+
+    .about .navbar {
+
+
+    }
+
+    .about .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+
+    }
+
+    .about .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+    /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+
+    }
+
+    /* Contact Page */
+
+    .contactpage {
+        height: 1100px;
+
+    }
+
+    .contactheader {
+
+    }
+
+
+    .contactpage .contactheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+    .contactpage .contactinfo .location {
+
+    }
+
+    .contactpage .contactinfo .location h4 {
+        font-size: 7rem;
+
+    }
+
+    .contactpage .contactinfo .location p {
+        font-size: 3rem;
+
+    }
+
+    .contactpage .contactinfo .location img {
+        height: 80px;
+        width: 80px;
+
+    }
+
+
+    .contactpage .navbar {
+
+    }
+
+    .contactpage .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+
+    }
+
+    .contactpage .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+    }
+
+} 
+ 
+ 
+ @media only screen and (min-width: 1091px) and (max-width: 1200px) /* Menu Page */
+
+    .menupage {
+
+    }
+
+
+
+    .menupage .menuheader h1 {
+        font-size: 20.5rem;
+
+    }
+
+
+    .menupage .menu .drinksmenu {
+        margin: none;
+        padding: none;
+
+    }
+
+
+    .menupage .menu .drinksmenu h1 {
+        float: none;
+        text-align: center;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .drinksmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .drinksmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+    .menupage .menu .foodmenu {
+        margin: none;
+        padding: none;
+        
+    }
+
+
+    .menupage .menu .foodmenu h1 {
+        text-align: center;
+        float: none;
+        font-size: 13rem;
+    }
+
+    .menupage .menu .foodmenu h3 {
+        text-align: center;
+        float: none;
+        font-size: 5rem;
+    }
+
+    .menupage .menu .foodmenu p {
+        text-align: center;
+        float: none;
+        font-size: 3rem;
+        line-height: 25px;
+    }
+
+
+    .menupage .navbar {
+
+    }
+
+    .menupage .navbar ul {
+        word-spacing: 0px;
+        padding: 0px;
+    }
+
+    .menupage .navbar ul li {
+        font-size: 3rem;
+        margin-top: -5px;
+
+    }
+
+ 
+ @media only screen and (min-width: 737px) and (max-width: 934px) {
+
+ 
+     
+ }
+
+/* Large screens ----------- */
+ @media only screen and (min-width : 1824px) {}

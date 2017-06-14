@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS Link -->
+    <link href="brewsters.css" type="text/css" rel="stylesheet">
+    
+    <!-- JQuery Link -->
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">;</script>
+    
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
+    
+    <title>Brewsters Coffee Co. - Menu</title>
+    
+</head>
+<body>
+<div class="menupage">
+    <div class="menuheader">
+        <h1>Menu</h1>
+    </div>
+
+    
+    <div class="menu">
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <div class="drinksmenu">
+                    
+                    <h1>Drinks</h1>
+                    
+                        <h3>Drip Coffee</h3>
+                            <p>Our finest blend - comes in light, medium, and strong roasts.</p>
+                            <p>Small: $1.75</p>
+                            <p>Medium: $2.15</p>
+                            <p>Large: $2.75</p>
+                        
+                        <br>
+                        <br>
+                        
+                        <h3>Caffe Latte</h3>
+                            <p>An espresso drink, with steamed milk and a light layer of foam.</p>
+                            <p>Small: $2.95</p>
+                            <p>Medium: $3.20</p>
+                            <p>Large: $3.75</p>
+                        
+                        <br>
+                        <br>
+                    
+                        <h3>White Mocha</h3>
+                            <p>A delicious espresson - blend of white chocolate sauce and steamed milk.</p>
+                            <p>Small: $3.50</p>
+                            <p>Medium: $3.90</p>
+                            <p>Large: $4.15</p>
+                    
+                        <br>
+                        <br>
+                    
+                        <h3>Tea</h3>
+                            <p>Enjoy any of our many flavors of tea!</p>
+                            <p>Small: $2.15</p>
+                            <p>Medium: $2.40</p>
+                            <p>Large: $3.00</p>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="foodmenu">
+                    
+                    <h1>Food</h1>
+                    
+                        <h3>Salad</h3>
+                            <p>Try one of our many delicious salads!</p>
+                            <p>All Greens: $4.00</p>
+                            <p>Caeser: $4.15 - w/Chicken: $5.15</p>
+                            <p>Greek Salad: $4.45</p>
+                        
+                        <br>
+                        <br>
+                        
+                        <h3>Sandwich</h3>
+                            <p>All served with lettuce, cheese, onion, and tomoatoes.</p>
+                            <p>Grilled Chicken: $5.75</p>
+                            <p>Turkey: $6.00</p>
+                            <p>Ham: $6.50</p>
+                            
+                        
+                        <br>
+                        <br>
+                    
+                        <h3>Breakfast Foods</h3>
+                            <p>Joining us for breakfast?</p>
+                            <p>Oatmeal: $2.50</p>
+                            <p>Bagel w/Cream Cheese: $3.50</p>
+                            <p>Breakfast Burrito: $6.50</p>
+                    
+                        <br>
+                        <br>
+                    
+                        <h3>Sides</h3>
+                            <p>We have several different, delicious sides to choose from.</p>
+                            <p>Scones: $1.50</p>
+                            <p>Chips: $1.50</p>
+                            <p>Fruit Bowl: $3.00</p>
+                    
+                </div>
+            </div>
+            
+                <script>
+	                  
+                  $(document).ready(function(){
+                      $('.drinksmenu, .foodmenu').hide();
+                        $('.drinksmenu, .foodmenu').slideDown(1000, function(){     
+                      });
+                  });
+
+                </script>
+            
+        
+        </div>
+    </div>
+    
+    
+<div class="navbar">
+    <ul>
+        <a href="index.html"><li>Home</li></a>
+        <li>/</li>
+        <a href="BrewstersAbout.html"><li>About</li></a>
+        <li>/</li>
+        <a href="BrewstersMenu.html"><li>Menu</li></a>
+        <li>/</li>
+        <a href="BrewstersContact.html"><li>Contact</li></a>
+    </ul>
+</div>
+    
+</div>    
+</body>    
+</html>
