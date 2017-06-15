@@ -335,7 +335,7 @@ body {
     /* Home Page */
 
     .homepage {
-        
+	    
     }
 
     .homepagefilter {
@@ -1220,7 +1220,7 @@ body {
     /* Home Page */
 
     .homepage {
-        
+        height: 1000px;
     }
 
     .homepagefilter {
