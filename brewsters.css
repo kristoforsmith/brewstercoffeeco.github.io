@@ -1220,10 +1220,11 @@ body {
     /* Home Page */
 
     .homepage {
-        height: 1000px;
+        display: none;
     }
 
     .homepagefilter {
+	    display: none;
 
     }
 
